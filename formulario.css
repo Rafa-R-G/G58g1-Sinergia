@@ -1,0 +1,44 @@
+body{
+	background-color: orange;
+}
+
+form{
+	margin-top: 200px;
+	margin-left: 150px;
+}
+
+form label{
+	float: left;
+	width: 100px;
+}
+
+form input{
+	width: 100px;
+}
+
+form textarea{
+	width: 100px;
+}
+
+.campos{
+	margin-top: 7px;
+}
+
+#botones{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+form input[type="submit"],form input[type="reset"]{
+	float: left;
+	width: 100px;
+	background-color: black;
+	color: whitesmoke;
+	border-width: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+form input[type="submit"]:hover,form input[type="reset"]:hover{
+	background-color: lightgrey;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mi segunda página</title>
+</head>
+<body bgcolor="#101D60" text="white">
+	<h1 align="center">Ciclo 3</h1>
+	<hr width="80%" color="black" align="center" size="4px" noshade="20px">
+	<ol align="left" type="1">
+		<li>Item #1</li>
+		<li>Item #2</li>
+		<li>Item #3</li>
+	</ol>
+	<ul align="center" type="square">
+		<li>Item #1</li>
+		<li>Item #2</li>
+		<li>Item #3</li>
+	</ul>
+
+	<ol type="a">
+		<li>
+			<ul>
+				<li>Primero</li>
+				<li>Segundo</li>
+				<li>Tercero</li>
+			</ul>
+		</li>
+	</ol>
+	<a href="https://www.amazon.com/-/es/"><img src="html1.png"></a>
+	<form action="datos.html" method="post"><!-- el método Get envía la información por la URL / el método POST no envía nada por la URL -->
+		<p>
+			<label>Nombre: </label>
+			<input type="text" name="nombre" size="20">
+		</p>
+		<p>
+			<label>¿Desea compartir información?</label>
+			<input type="radio" name="info" value="si">Sí
+			<input type="radio" name="info" value="no">No
+		</p>
+		<p>
+			<label>Checkboxes</label>
+			<input type="Checkbox" name="win98" value="win98">Windows 98
+			<input type="Checkbox" name="winXp" value="winXp">Windows Xp
+			<input type="Checkbox" name="winVista" value="winVista">Windows Vista
+			<input type="Checkbox" name="win10" value="win10">Windows 10
+		</p>
+		<p>
+			<label>Facultad</label>
+			<select name="Facultad">
+				<option value="1">Ingeniería electrónica</option>
+				<option value="2">Ingeniería de sistemas</option>
+				<option value="3">Ingeniería química</option>
+				<option value="4">Ingeniería de petróleos</option>
+			</select>
+		</p>
+		<p>
+			<label>Contraseña</label>
+			<input type="password" name="pass" size="20">
+		</p>
+		<p>
+			<label>Mensaje</label>
+			<textarea name="Mensaje" rows="5" cols="60"></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Aceptar" name="enviar">
+			<input type="reset" value="Borrar" name="blank">
+		</p>
+	</form>
+</body>
+</html>
